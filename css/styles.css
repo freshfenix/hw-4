@@ -3,44 +3,46 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 1.5;
-}
-.container {
-  width: 1728px;
-  border-radius: 20px;
   background-color: #0c151d;
   color: #a3abb2;
-  box-sizing: border-box;
   text-align: center;
-  margin: 15px auto;
   font-size: 22px;
 }
-.settings {
-  height: 100px;
-  margin: 15px auto 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
+header {
+  padding: 15px 0 50px;
+}
+.settings a {
+  display: inline-block;
+}
 .settings img {
   height: 80px;
   width: 80px;
 }
-.hero {
-  width: 650px;
-  margin: 0 auto;
+.logo a {
+  padding-top: 12px;
+  display: inline-block;
 }
-.logo {
-  margin: 12px 13px 0 13px;
+.logo a + a {
+  margin: 0 13px 0 13px;
 }
 .my-photo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-photo img {
   border: 6px solid #ffe071;
   border-radius: 105px;
   width: 205px;
   height: 205px;
-  margin-bottom: 48px;
 }
+
 .contacts {
+  vertical-align: middle;
   text-align: left;
   width: 372px;
   height: 156px;
@@ -53,7 +55,7 @@ body {
   color: #f1f2f4;
 }
 .experience {
-  margin: 0 auto 48px;
+  margin: 50px auto 48px;
   width: 620px;
   height: 142px;
 }
@@ -66,9 +68,6 @@ body {
 }
 .content {
   margin: 0 -15px;
-  width: 1230px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .portfolio h2 {
   margin-bottom: 40px;
@@ -87,18 +86,22 @@ body {
 }
 .button {
   margin-bottom: 100px;
+  font-size: 0;
 }
 .button button {
-  width: 290px;
-  height: 80px;
+  border: none;
+  min-width: 290px;
+  padding: 25px 10px;
   border-radius: 16px;
   background-color: #ffe482;
   color: #3d3d3d;
   font-size: 22px;
+  cursor: pointer;
 }
 .button > button:nth-child(2) {
   background-color: #171f26;
   color: #a3abb2;
+  margin-left: 15px;
 }
 
 :is(.portfolio, .about-me) h2 {
@@ -108,16 +111,15 @@ body {
 .about-me {
   background-color: #ffe482;
   color: #3d3d3d;
+  padding: 40px 0;
 }
 .about-me div {
   width: 1200px;
   margin: 0 auto;
-  padding: 40px 0;
 }
 .about-me h2 {
   margin-bottom: 30px;
 }
-.policy {
-  height: 100px;
-  margin: 50px auto 0;
+footer {
+  padding: 50px 0;
 }
