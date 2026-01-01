@@ -1,0 +1,123 @@
+@import url("reset.css");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.container {
+  width: 1728px;
+  border-radius: 20px;
+  background-color: #0c151d;
+  color: #a3abb2;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 15px auto;
+  font-size: 22px;
+}
+.settings {
+  height: 100px;
+  margin: 15px auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.settings img {
+  height: 80px;
+  width: 80px;
+}
+.hero {
+  width: 650px;
+  margin: 0 auto;
+}
+.logo {
+  margin: 12px 13px 0 13px;
+}
+.my-photo {
+  border: 6px solid #ffe071;
+  border-radius: 105px;
+  width: 205px;
+  height: 205px;
+  margin-bottom: 48px;
+}
+.contacts {
+  text-align: left;
+  width: 372px;
+  height: 156px;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.contacts h1 {
+  font-size: 46px;
+  color: #f1f2f4;
+}
+.experience {
+  margin: 0 auto 48px;
+  width: 620px;
+  height: 142px;
+}
+.experience p {
+  display: inline-block;
+  width: 30%;
+}
+.experience span {
+  display: block;
+}
+.content {
+  margin: 0 -15px;
+  width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.portfolio h2 {
+  margin-bottom: 40px;
+}
+.content-card {
+  height: 226px;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.button {
+  margin-bottom: 100px;
+}
+.button button {
+  width: 290px;
+  height: 80px;
+  border-radius: 16px;
+  background-color: #ffe482;
+  color: #3d3d3d;
+  font-size: 22px;
+}
+.button > button:nth-child(2) {
+  background-color: #171f26;
+  color: #a3abb2;
+}
+
+:is(.portfolio, .about-me) h2 {
+  font-size: 37px;
+  text-transform: uppercase;
+}
+.about-me {
+  background-color: #ffe482;
+  color: #3d3d3d;
+}
+.about-me div {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.about-me h2 {
+  margin-bottom: 30px;
+}
+.policy {
+  height: 100px;
+  margin: 50px auto 0;
+}
